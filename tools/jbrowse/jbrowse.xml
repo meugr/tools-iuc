@@ -341,8 +341,8 @@ $trackxml &&
     </conditional>
 
     <param name="standalone" label="Output JBrowse" type="select">
-        <option value="complete">Complete for web serving (JBrowse, documentation, etc.)</option>
-        <option value="minimal">Minimal for web serving (Documentation removed)</option>
+        <option value="complete">Complete, for viewing and further local development (JBrowse, tools, documentation, etc.)</option>
+        <option value="minimal" default="true">Minimal for viewing (Documentation removed)</option>
         <option value="data">Data directory only (primarily for use with Apollo, requires extra steps to serve as website)</option>
     </param>
 
